@@ -68,6 +68,7 @@ chrome://extensions/
 3. 按住 **滑鼠左鍵** 並拖曳，拉出一個框格將驗證碼或目標文字包起來。
 4. **放開滑鼠左鍵**，系統會自動截圖並送出辨識。
 5. 辨識成功後會跳出確認視窗，此時文字已複製，直接前往輸入框按下 `Ctrl + V` 即可！
+<img width="1408" height="768" alt="demo" src="https://github.com/user-attachments/assets/7d73bdcf-07ec-4d66-aa06-006df16a70eb" />
 
 > ⚠️ **貼心提醒**：
 > 本套件預設使用 OCR.space 的公用金鑰 (`helloworld`)。若您有非常高頻率、大量的使用需求，建議至 [OCR.space 官網](https://ocr.space/ocrapi) 免費申請一組個人專屬的 API Key，並替換掉 `content.js` 中的 `apikey` 欄位，以獲得更穩定的連線速度。
