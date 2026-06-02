@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "滑鼠框選 OCR 文字辨識",
+  "version": "1.1",
+  "description": "使用滑鼠左鍵拖曳框選網頁任意區域（如驗證碼），自動辨識文字並複製到剪貼簿。",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite",
+    "scripting" 
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "開始框選截圖"
+  }
+}

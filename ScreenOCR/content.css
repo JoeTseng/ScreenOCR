@@ -1,0 +1,18 @@
+#ocr-selector-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 99999999 !important;
+  cursor: crosshair;
+}
+
+#ocr-selection-box {
+  position: absolute;
+  border: 2px dashed #00e5ff;
+  background: rgba(0, 229, 255, 0.15);
+  display: none;
+  pointer-events: none; /* 防止擋住 overlay 的 mousemove 事件 */
+}
