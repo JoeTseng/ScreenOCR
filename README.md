@@ -91,6 +91,5 @@ chrome://extensions/
 
 本專案基於 **MIT License** 進行開源，歡迎自由 Fork、修改或提交 PR！
 
-```
+---
 
-```
